@@ -73,7 +73,7 @@ tshark -r working/image_traffic_working.pcapng --export-objects http,exported/ht
 
 A separate capture during a curl -v http://127.0.0.1/image.html request confirmed that curl issued only one request (/image.html). Lacking an HTML rendering engine, it did not parse <img src="..."> tags or issue secondary requests for /lab_photo.jpg or /favicon.ico.
 
-### ⚖️ Disclaimer & Limitations
+## ⚖️ Disclaimer & Limitations
 
 All procedures were executed within an isolated lab environment under explicit authorization for academic digital forensics analysis.
 
